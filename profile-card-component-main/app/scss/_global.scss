@@ -12,8 +12,27 @@ html {
 }
 
 body {
+  height: 100vh;
   font-family: "Kumbh Sans", sans-serif;
-  background: $darkCyan;
+
+  //   It's more efficient by this way than media queries
+  background: url(/images/bg-pattern-top.svg) calc((50vw - 100vh)) -50vh,
+    url(/images/bg-pattern-bottom.svg) 50vw 50vh;
+  background-size: auto 100vh;
+  background-repeat: no-repeat;
+  background-color: $darkCyan;
+
   justify-content: center;
   align-items: center;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.attribution {
+  position: relative;
+  color: $darkGray;
+}
+
+@media (min-width: 400px) {
 }
