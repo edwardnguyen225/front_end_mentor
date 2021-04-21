@@ -1,6 +1,6 @@
 # Frontend Mentor - Profile card component solution
 
-This is a solution to the [Profile card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/profile-card-component-cfArpWshJ). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [Profile card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/profile-card-component-cfArpWshJ). Frontend Mentor challenges help you improve your coding skills by building real projects. 
 
 ## Table of contents
 
@@ -11,12 +11,8 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
-
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 
@@ -25,6 +21,17 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 Build out the project to the designs provided
 
 ![Desktop preview of the project](./design/desktop-preview.jpg)
+
+### Screenshot
+
+![Screen shot on desktop](./images/screenshot-desktop.png)
+
+![Screen shot on mobile](./images/screenshot-iphone8.png)
+
+
+### Links
+
+[Link to gitpage](https://edwardnguyen225.github.io/front_end_mentor/profile-card-component-main/)
 
 ## My process
 
