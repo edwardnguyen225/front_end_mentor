@@ -25,9 +25,11 @@ Build out the project to the designs provided
 ### Screenshot
 
 The screenshot on desktop
+
 ![Screen shot on desktop](./screenshots/screenshot-desktop.png)
 
 The screenshot on mobile (iPhone 8)
+
 ![Screen shot on mobile](./screenshots/screenshot-iphone8.png)
 
 ## My process
