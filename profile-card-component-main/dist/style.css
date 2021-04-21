@@ -90,8 +90,8 @@ body {
 }
 
 .card__header img {
-  -webkit-transform: translateY(70%);
-          transform: translateY(70%);
+  -webkit-transform: translateY(50%);
+          transform: translateY(50%);
   border: 7px solid white;
   border-radius: 50%;
 }
@@ -109,12 +109,19 @@ body {
 }
 
 .card__profile .title .age {
+  color: #6a6f81;
   font-weight: 400;
 }
 
+.card__profile .location {
+  margin-top: 1rem;
+  color: #6a6f81;
+  font-size: 0.9rem;
+}
+
 .card__stats {
-  padding-top: 1.875rem;
-  padding-bottom: 1.75rem;
+  margin-top: 1.875rem;
+  margin-bottom: 1.75rem;
   height: 22.5%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -129,9 +136,16 @@ body {
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
+  letter-spacing: 0.125rem;
 }
 
 .card__stats .stat > .stat__value {
   font-weight: 700;
+}
+
+.card__stats .stat > .stat__label {
+  margin-top: 0.75rem;
+  color: #6a6f81;
+  font-size: 0.9rem;
 }
 /*# sourceMappingURL=style.css.map */
