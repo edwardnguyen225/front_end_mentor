@@ -2,6 +2,8 @@
 
 This repository is for storing my solutions for the challenges on [the front-end mentor website](https://www.frontendmentor.io/).
 
+[Link to gitpage](https://edwardnguyen225.github.io/front_end_mentor/)
+
 ## My projects
 
 1. [Profile card component](https://edwardnguyen225.github.io/front_end_mentor/profile-card-component-main/)
