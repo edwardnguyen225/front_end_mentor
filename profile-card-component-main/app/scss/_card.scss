@@ -44,8 +44,15 @@
       font-weight: 700;
 
       .age {
+        color: $darkGrayishBlue;
         font-weight: 400;
       }
+    }
+
+    .location {
+      margin-top: 1rem;
+      color: $darkGrayishBlue;
+      font-size: 0.9rem;
     }
   }
 
@@ -59,13 +66,15 @@
     justify-content: space-evenly;
 
     letter-spacing: 0.125rem;
-
+    
     .stat > .stat__value {
       font-weight: 700;
     }
-
+    
     .stat > .stat__label {
       margin-top: 0.75rem;
+      color: $darkGrayishBlue;
+      font-size: 0.9rem;
     }
   }
 }
