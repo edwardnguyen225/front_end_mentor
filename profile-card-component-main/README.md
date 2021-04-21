@@ -24,9 +24,9 @@ Build out the project to the designs provided
 
 ### Screenshot
 
-![Screen shot on desktop](./images/screenshot-desktop.png)
+![Screen shot on desktop](./screenshots/screenshot-desktop.png)
 
-![Screen shot on mobile](./images/screenshot-iphone8.png)
+![Screen shot on mobile](./screenshots/screenshot-iphone8.png)
 
 
 ### Links
