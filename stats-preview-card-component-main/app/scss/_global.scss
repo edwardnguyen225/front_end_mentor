@@ -10,3 +10,24 @@ html {
   padding: 0;
   box-sizing: inherit;
 }
+
+.attribution {
+  margin-top: 2rem;
+  position: relative;
+  color: white;
+  text-align: center;
+
+  a {
+    padding: 0.4rem 0.2rem 0.2rem;
+    color: $bananaYellow;
+    text-decoration: none;
+    transition: all 0.2s ease-in;
+  }
+
+  a:hover,
+  a:focus {
+    color: $veryDarkDesaturatedBlue;
+    background-color: $bananaYellow;
+    border-radius: 5px;
+  }
+}
