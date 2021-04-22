@@ -1,3 +1,5 @@
+@use 'variables' as *;
+
 html {
   font-size: 100%;
   box-sizing: border-box;
@@ -26,7 +28,7 @@ html {
 
   a:hover,
   a:focus {
-    color: $veryDarkDesaturatedBlue;
+    color: $veryDarkBlue;
     background-color: $bananaYellow;
     border-radius: 5px;
   }
