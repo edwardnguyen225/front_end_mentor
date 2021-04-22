@@ -1,0 +1,31 @@
+{
+  "name": "stats-preview-card-component-main",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "binary-extensions": "^2.2.0",
+    "anymatch": "^3.1.2",
+    "braces": "^3.0.2",
+    "glob-parent": "^5.1.2",
+    "chokidar": "^3.5.1",
+    "fill-range": "^7.0.1",
+    "is-binary-path": "^2.1.0",
+    "is-extglob": "^2.1.1",
+    "is-number": "^7.0.0",
+    "is-glob": "^4.0.1",
+    "picomatch": "^2.2.3",
+    "to-regex-range": "^5.0.1",
+    "readdirp": "^3.5.0",
+    "normalize-path": "^3.0.0"
+  },
+  "devDependencies": {
+    "sass": "^1.32.11"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
