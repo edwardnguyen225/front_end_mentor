@@ -13,6 +13,16 @@ html {
   box-sizing: inherit;
 }
 
+body {
+  height: 100vh;
+
+  background-color: $veryDarkBlue;
+  color: white;
+
+  font-family: "Inter", sans-serif;
+  font-size: $font-med;
+}
+
 .attribution {
   margin-top: 2rem;
   position: relative;
