@@ -1,3 +1,65 @@
 .card {
+  margin: 5.5rem 1.5rem;
+  padding: 0;
+  width: 87%;
+  max-width: 326px;
   background-color: $darkDesaturatedBlue;
+
+  border-radius: 12px;
+
+  text-align: center;
+
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+
+  text-align: center;
+  font-weight: 400;
+
+  &__img {
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+
+  &__info {
+    margin: 2.75rem 3.25rem 2.1875rem 2.1875rem;
+
+    &__title {
+      margin-bottom: 1.375rem;
+      font-size: 1.5rem;
+      font-weight: 700;
+
+      span {
+        color: $softViolet;
+      }
+    }
+
+    &__disc {
+      color: $slightlyTransparentWhite;
+      line-height: 1.5rem;
+    }
+  }
+
+  &__stats {
+    margin-bottom: 2.5rem;
+    .stat {
+      &:not(:last-child) {
+        padding-bottom: 2.25rem;
+      }
+
+      &__label {
+        margin-top: 0.875rem;
+        color: $slightlyTransparentWhite;
+        font-size: 0.75rem; // 12px
+        text-transform: uppercase;
+      }
+
+      &__value {
+        font-size: 1.125rem; // 18px
+        font-weight: 700;
+      }
+    }
+  }
 }
