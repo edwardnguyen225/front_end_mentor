@@ -39,11 +39,11 @@ body {
   &-jc-sb {
     justify-content: space-between;
   }
-  
+
   &-jc-c {
     justify-content: center;
   }
-  
+
   &-ai-c {
     align-items: center;
   }
@@ -67,5 +67,14 @@ body {
     color: $veryDarkBlue;
     background-color: $bananaYellow;
     border-radius: 5px;
+  }
+}
+
+@media (min-width: 1024px) {
+  body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 }
