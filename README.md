@@ -7,6 +7,7 @@ This repository is for storing my solutions for the challenges on [the front-end
 ## My projects
 
 1. [Profile card component](https://edwardnguyen225.github.io/front_end_mentor/profile-card-component-main/)
+2. [Stats preview card component](https://edwardnguyen225.github.io/front_end_mentor/stats-preview-card-component-main/
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
