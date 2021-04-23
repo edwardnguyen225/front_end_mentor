@@ -1,7 +1,7 @@
 .card {
   margin: 5.5rem 1.5rem;
   padding: 0;
-  width: 87%;
+  width: 87vw;
   max-width: 326px;
   background-color: $darkDesaturatedBlue;
 
@@ -17,16 +17,21 @@
   font-weight: 400;
 
   &__img {
-    // TODO: need to add overlay with $softViolet
-    img {
+    background-image: url("../images/image-header-mobile.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 30vh;
+    .overlay {
       width: 100%;
-      height: auto;
+      height: 100%;
+      position: inherit;
+      background-color: #6C00A7;
+      opacity: 0.6;
     }
   }
 
   &__info {
-    margin: 2.75rem 3.25rem 2.1875rem 2.1875rem;
-
+    margin: 2.75rem 2.215rem 2.5rem;
     &__title {
       margin-bottom: 1.375rem;
       font-size: 1.5rem;
@@ -44,14 +49,15 @@
   }
 
   &__stats {
-    margin-bottom: 2.5rem;
+    margin-top: 1.3333rem;
+
     .stat {
       &:not(:last-child) {
-        padding-bottom: 2.25rem;
+        margin-bottom: 2.25rem;
       }
 
       &__label {
-        margin-top: 0.875rem;
+        margin-top: 1rem; 
         color: $slightlyTransparentWhite;
         font-size: 0.75rem; // 12px
         text-transform: uppercase;
