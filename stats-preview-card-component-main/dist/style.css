@@ -59,10 +59,18 @@ body {
   border-radius: 5px;
 }
 
+@media (min-width: 1024px) {
+  body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
 .card {
   margin: 5.5rem 1.5rem;
   padding: 0;
-  width: 87%;
+  width: 87vw;
   max-width: 326px;
   background-color: #1b1938;
   border-radius: 12px;
@@ -73,12 +81,21 @@ body {
   text-align: center;
   font-weight: 400;
 }
-.card__img img {
+.card__img {
+  background-image: url("../images/image-header-mobile.jpg");
+  background-size: cover;
   width: 100%;
-  height: auto;
+  height: 30vh;
+}
+.card__img .overlay {
+  width: 100%;
+  height: 100%;
+  position: inherit;
+  background-color: #6c00a7;
+  opacity: 0.6;
 }
 .card__info {
-  margin: 2.75rem 3.25rem 2.1875rem 2.1875rem;
+  margin: 2.75rem 2.215rem 2.5rem;
 }
 .card__info__title {
   margin-bottom: 1.375rem;
@@ -93,20 +110,59 @@ body {
   line-height: 1.5rem;
 }
 .card__stats {
-  margin-bottom: 2.5rem;
+  margin-top: 1.3333rem;
 }
 .card__stats .stat:not(:last-child) {
-  padding-bottom: 2.25rem;
+  margin-bottom: 2.25rem;
 }
 .card__stats .stat__label {
-  margin-top: 0.875rem;
+  margin-top: 1rem;
   color: rgba(255, 255, 255, 0.6);
   font-size: 0.75rem;
+  font-family: "Lexend Deca";
   text-transform: uppercase;
 }
 .card__stats .stat__value {
   font-size: 1.125rem;
   font-weight: 700;
+}
+
+@media (min-width: 1024px) {
+  .card {
+    margin: 0;
+    width: 77vw;
+    max-width: 1200px;
+    flex-direction: row;
+  }
+  .card__img {
+    order: 3;
+    width: 100%;
+    height: auto;
+    background-image: url(../images/image-header-desktop.jpg);
+  }
+  .card__info {
+    margin: 0;
+    padding: 4.875rem 7.625rem 4.125rem 4.5rem;
+    width: 75%;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+  }
+  .card__info__title {
+    font-size: 1.9rem;
+  }
+  .card__info__disc {
+    margin-top: 2rem;
+  }
+  .card__stats {
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .card__stats .stat {
+    margin-bottom: 0;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
